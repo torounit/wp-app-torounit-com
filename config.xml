@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.0">
+    <name>wp-app-torounit</name>
+    <description/>
+    <author/>
+    <access origin="*"/>
+    <content src="index.html"/>
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App"/>
+    </feature>
+    <hook type="before_prepare" src="scripts/build.sh" />
+</widget>
