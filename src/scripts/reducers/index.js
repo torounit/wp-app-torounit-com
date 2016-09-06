@@ -1,17 +1,13 @@
+"use strict";
 import { combineReducers } from 'redux'
-
-const reducer = (state = {}, action) => {
-
-	switch (action.type) {
-
-		default:
-			return state
-	}
-}
-
+import posts from './posts'
+import currentPost from './currentPost'
+import connection from './connection'
 
 const reducers = combineReducers({
-	reducer
+	connection,
+	posts,
+	currentPost
 });
 
 export default reducers;

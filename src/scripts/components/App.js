@@ -1,13 +1,18 @@
 import React from 'react'
+import Posts from '../containers/Posts'
+import FrontPage from './FrontPage'
+import { Navigator } from 'react-onsenui';
 
-class App extends React.Component {
+const renderPage = (route, navigator) => (
+	<route.component key={route.key} navigator={navigator} />
+);
 
-	render() {
-		return (
-			<div>Hello</div>
-		)
-	}
-}
+const App = () => (
+	<Navigator
+		renderPage={renderPage}
+		initialRoute={{component: FrontPage, key: 'MAIN_PAGE'}}
+	/>
+);
 
 
 
