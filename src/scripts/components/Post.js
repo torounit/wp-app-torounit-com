@@ -3,7 +3,7 @@ const PropTypes = React.PropTypes;
 
 const Post = ({ title, content }) => (
 	<article style={{margin: '16px'}}>
-		<h5 className="center">{title.rendered}</h5>
+		<h1 className="center">{title.rendered}</h1>
 		<div dangerouslySetInnerHTML={ {__html: content.rendered }} />
 	</article>
 )
