@@ -6,7 +6,7 @@ import { Toolbar, Page, PullHook } from 'react-onsenui';
 const FrontPage = ({navigator}) => (
 	<Page
 		renderToolbar={() =>
-			<Navbar title='Onsen Weather' navigator={navigator} />
+			<Navbar title='Toro_Unit' navigator={navigator} />
 		}>
 		<Posts navigator={navigator} />
 	</Page>

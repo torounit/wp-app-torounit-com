@@ -4,6 +4,32 @@
 @import url("../../node_modules/onsenui/css/onsenui.css");
 @import url("../../node_modules/onsenui/css/onsen-css-components.css");
 
-body {
+.Post {
+	font-size: 14px;
+}
 
+.Post h1 {
+	font-size: 20px;
+}
+
+.Post h2 {
+	font-size: 18px;
+}
+
+.Post h3 {
+	font-size: 16px;
+}
+
+.Post h4 {
+	font-size: 14px;
+}
+
+.Post h5 {
+	font-weight:bold;
+	font-size: 14px;
+}
+
+.Post h6 {
+	font-weight:normal;
+	font-size: 14px;
 }

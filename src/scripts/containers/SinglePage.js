@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Post from '../components/Post'
-import { Page,PullHook } from 'react-onsenui'
+import { Page } from 'react-onsenui'
 import { connect } from 'react-redux'
 
 const SinglePage = ({navigator,post}) => (
 	<Page
 		renderToolbar={() =>
-			<Navbar title='Onsen Weather' backButton={true} navigator={navigator} />
+			<Navbar title='' backButton={true} navigator={navigator} />
 		}>
 		<Post {...post} />
 	</Page>
