@@ -14,7 +14,10 @@
     "image:build": "imagemin src/images/* --out-dir=www/images",
     "build": "npm run css:build & npm run image:build & npm run html:build & npm run js:build",
     "watch": "npm run js:watch & npm run css:watch & npm run html:watch",
-    "start": "npm run build && npm run bs & npm run watch"
+    "start": "npm run build && npm run bs & npm run watch",
+    "serve": "cordova serve",
+    "platform:ios": "cordova platform add ios",
+    "ios": "corova run ios"
   },
   "author": "",
   "license": "ISC",
@@ -40,6 +43,7 @@
     "babelify": "^7.3.0",
     "browser-sync": "^2.13.0",
     "browserify": "^13.1.0",
+    "cordova": "^6.4.0",
     "imagemin-cli": "^3.0.0",
     "postcss-cli": "^2.5.2",
     "postcss-cssnext": "^2.7.0",

@@ -6,7 +6,6 @@ import reducers from './reducers'
 import { Provider } from 'react-redux'
 import createLogger from 'redux-logger'
 import thunk        from 'redux-thunk'
-
 import { fetchPosts } from './actions/posts';
 
 const logger = createLogger();
